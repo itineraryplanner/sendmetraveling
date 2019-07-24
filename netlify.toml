@@ -1,0 +1,4 @@
+[build]
+base = "SENDMETRAVELING/sendmetraveling/"
+publish = "SENDMETRAVELING/sendmetraveling/build/"
+command = "yarn build"
