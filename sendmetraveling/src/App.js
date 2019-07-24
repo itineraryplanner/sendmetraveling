@@ -1,24 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+import ComingSoon from 'react-coming-soon';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="App">
+      <ComingSoon
+        title="Send Me Traveling"
+        subtitle="Travel. Made. Simple."
+        bgColor="#3f51b5"
+        textColor="#fafafa"
+        date="Mon Aug 12 2019 17:00:00 GMT-0600 (Mountain Daylight Time)"
+        illustration="web-development"
+      />
     </div>
   );
 }
