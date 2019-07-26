@@ -2,6 +2,3 @@
 base = "/sendmetraveling/"
 publish = "/sendmetraveling/build/"
 command = "yarn build"
-
-[context.branch-deploy]
-  command = "make staging"
