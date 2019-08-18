@@ -11,7 +11,7 @@ function App() {
         subtitle="Travel. Made. Simple."
         bgColor="#3f51b5"
         textColor="#fafafa"
-        date="Mon Aug 12 2019 17:00:00 GMT-0600 (Mountain Daylight Time)"
+        date="Mon Oct 30 2019 17:00:00 GMT-0600 (Mountain Daylight Time)"
         illustration="web-development"
       />
     </div>
